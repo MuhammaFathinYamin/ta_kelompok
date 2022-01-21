@@ -4,24 +4,40 @@ This is a starter template page. Use this page to start your new project from
 scratch. This page gets rid of all links and provides the needed markup only.
 -->
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SILOKER-NF | Daftar Mitra</title>
-  <link rel = "icon" 
-    href = "dist/img/nf.jpg"
-    type = "image/x-icon">
+  <title>SILOKER-NF</title>
+  <link rel="icon" href="dist/img/nf.jpg" type="image/x-icon">
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
-  <!-- Font Awesome Icons -->
+  <!-- Font Awesome -->
   <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- daterange picker -->
+  <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
+  <!-- iCheck for checkboxes and radio inputs -->
+  <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- Bootstrap Color Picker -->
+  <link rel="stylesheet" href="plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css">
+  <!-- Tempusdominus Bootstrap 4 -->
+  <link rel="stylesheet" href="plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <!-- Select2 -->
+  <link rel="stylesheet" href="plugins/select2/css/select2.min.css">
+  <link rel="stylesheet" href="plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css">
+  <!-- Bootstrap4 Duallistbox -->
+  <link rel="stylesheet" href="plugins/bootstrap4-duallistbox/bootstrap-duallistbox.min.css">
+  <!-- BS Stepper -->
+  <link rel="stylesheet" href="plugins/bs-stepper/css/bs-stepper.min.css">
+  <!-- dropzonejs -->
+  <link rel="stylesheet" href="plugins/dropzone/min/dropzone.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="dist/css/adminlte.min.css">
 </head>
 <body class="hold-transition sidebar-collapse layout-top-nav">
 <div class="wrapper">
-
+  
   <!-- Navbar -->
   <nav class="main-header navbar navbar-expand-md navbar-light navbar-white">
     <div class="container">
@@ -194,88 +210,21 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- /.sidebar -->
   </aside>
 
-    <!-- Content Wrapper. Contains page content -->
-    <div class="content-wrapper">
-        <!-- Content Header (Page header) -->
-        <section class="content-header">
-          <div class="container-fluid">
-            <div class="row mb-2">
-              <div class="col-sm-6">
-                <a href="form_mitra.html">Daftar Menjadi Mitra</a>
-              </div>
-              <div class="col-sm-6">
-                <ol class="breadcrumb float-sm-right">
-                    <li class="breadcrumb-item"><a href="index3.html">Home</a></li>
-                    <li class="breadcrumb-item active">Daftar Mitra</li>
-                </ol>
-              </div>
-            </div>
-          </div><!-- /.container-fluid -->
-        </section>
-    
-        <section class="content">
-          <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1 style="text-align: center; margin-top: 0.5rem;">
-                        Mitra Perusahaan Kami
-                    </h1>
-                    <h3>
-                        PT ABC
-                    </h3>
-                    <p>
-                        Perusahaan ABC bergerak dibidang Teknologi dan Komunikasi serta menjadi andalan disektornya.
-                        Perusahaan ini dibuat pada tahun 2010 di Jakarta.
-                        Perusahaan ini telah menjadi mitra kami sejak tahun 2017.
-                    </p>
-                    <h3>
-                        PT Bakery Honey
-                    </h3>
-                    <p>
-                        Perusahaan ABC bergerak dibidang Food and Baverage serta menjadi andalan disektornya.
-                        Perusahaan ini dibuat pada tahun 2003 di Bandung.
-                        Perusahaan ini telah menjadi mitra kami sejak tahun 2017.
-                    </p>
-                    <h3>
-                        PT Empat Roda
-                    </h3>
-                    <p>
-                        Perusahaan ABC bergerak dibidang Industri Infrastruktur serta menjadi andalan disektornya. 
-                        Perusahaan ini dibuat pada awal tahun 90'an di Yogyakarta.
-                        Perusahaan ini telah menjadi mitra kami sejak tahun 2019.
-                    </p>
-                </div>
-            </div><!-- /.row -->
-          </div><!-- /.container-fluid -->
-        </section>
-        <!-- /.content -->
-      </div>
-      <!-- /.content-wrapper -->
-      <footer class="main-footer no-print">
-        <div class="float-right d-none d-sm-block">
-          <b>Version</b> 3.1.0
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+          </div>
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+                <li class="breadcrumb-item"><a href="index3.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="mitra.html">Daftar Mitra</a></li>
+              <li class="breadcrumb-item active">Form Menjadi Mitra</li>
+            </ol>
+          </div>
         </div>
-        <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
-      </footer>
-    
-      <!-- Control Sidebar -->
-      <aside class="control-sidebar control-sidebar-dark">
-        <!-- Control sidebar content goes here -->
-      </aside>
-      <!-- /.control-sidebar -->
-    </div>
-</div>
-<!-- ./wrapper -->
-
-<!-- REQUIRED SCRIPTS -->
-
-<!-- jQuery -->
-<script src="plugins/jquery/jquery.min.js"></script>
-<!-- Bootstrap 4 -->
-<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-<!-- AdminLTE App -->
-<script src="dist/js/adminlte.min.js"></script>
-<!-- AdminLTE for demo purposes -->
-<script src="dist/js/demo.js"></script>
-</body>
-</html>
+      </div><!-- /.container-fluid -->
+    </section>
